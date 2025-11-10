@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FluxoPag.Domain.Entities
 {
-    public class Pagamentos
+    public class Pagamento
     {
-        public Pagamentos(string titularCartao, string numeroCartao, string expira, string cvc, decimal valor ) 
+        public Pagamento(string titularCartao, string numeroCartao, string expira, string cvc, decimal valor ) 
         {
             Id = Guid.NewGuid();
             TitularCartao = titularCartao;
