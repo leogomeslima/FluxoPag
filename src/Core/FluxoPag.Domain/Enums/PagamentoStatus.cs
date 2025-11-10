@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FluxoPag.Domain.Enums
 {
-    public enum PaymentStatus
+    public enum PagamentoStatus
     {
-        Pending = 1,
-        Approved = 2,
-        Failed = 3
-        
+        Pendente = 1,
+        Aprovado = 2,
+        Recusado = 3
+
     }
 }
